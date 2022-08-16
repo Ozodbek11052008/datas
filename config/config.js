@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const connectDB = async () => {
-    await mongoose.connect('mongodb://localhost:27017/mahala', {
+    await mongoose.connect('mongodb+srv://yosh_dasturchi:11052008ozodbek+@cluster0.qih2a9m.mongodb.net/?retryWrites=true&w=majority', {
         useNewUrlParser : true
     })
     .then(data => {
